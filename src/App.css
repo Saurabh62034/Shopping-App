@@ -1,0 +1,65 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+body {
+  
+}
+
+.text-title {
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue{
+  color:var(--mainBlue);
+}
+.text-bright{
+  color:var(--lightBlue);
+
+}
+.home :hover {
+  background-color: #0f61db !important;
+  transition: 1s background-color;
+}
+
+.cart{
+  color: rgb(11, 74, 246);
+  font-size: 22px;
+  border: none;
+  background-color: #f3f3f3 !important;
+}
+
+.ml-auto{
+  padding-right: 2%;
+}
+.ml-auto :hover {
+  color: #009ffd;
+  transition: 1s color;
+}
+
+.fas{
+  margin-right: 0.5rem;
+}
+
+#modal h1{
+  font-size: calc(1rem + 1.5vw) !important;
+}
+
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+
+}
